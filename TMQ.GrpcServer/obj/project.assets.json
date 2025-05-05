@@ -1,0 +1,617 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Grpc.AspNetCore.Server/2.66.0": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Net.Common": "2.66.0"
+        },
+        "compile": {
+          "lib/net9.0/Grpc.AspNetCore.Server.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Grpc.AspNetCore.Server.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Grpc.Core.Api/2.66.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.66.0": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.66.0"
+        },
+        "compile": {
+          "lib/net8.0/Grpc.Net.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "protobuf-net/3.2.30": {
+        "type": "package",
+        "dependencies": {
+          "protobuf-net.Core": "3.2.30"
+        },
+        "compile": {
+          "lib/net6.0/protobuf-net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Core/3.2.30": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Grpc/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.66.0",
+          "System.IO.Pipelines": "8.0.0",
+          "protobuf-net": "2.4.8"
+        },
+        "compile": {
+          "lib/net8.0/protobuf-net.Grpc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/protobuf-net.Grpc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Grpc.AspNetCore/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.AspNetCore.Server": "2.66.0",
+          "protobuf-net.Grpc": "1.2.2"
+        },
+        "compile": {
+          "lib/net8.0/protobuf-net.Grpc.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/protobuf-net.Grpc.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Grpc.AspNetCore.Reflection/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.AspNetCore.Server": "2.66.0",
+          "protobuf-net.Grpc.Reflection": "1.2.2"
+        },
+        "compile": {
+          "lib/net8.0/protobuf-net.Grpc.AspNetCore.Reflection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/protobuf-net.Grpc.AspNetCore.Reflection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Grpc.Reflection/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "protobuf-net": "3.2.30",
+          "protobuf-net.Core": "3.2.30",
+          "protobuf-net.Grpc": "1.2.2",
+          "protobuf-net.Reflection": "3.2.12"
+        },
+        "compile": {
+          "lib/net8.0/protobuf-net.Grpc.Reflection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/protobuf-net.Grpc.Reflection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Reflection/3.2.12": {
+        "type": "package",
+        "dependencies": {
+          "protobuf-net.Core": "3.2.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/protobuf-net.Reflection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/protobuf-net.Reflection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Collections.Immutable/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.IO.Pipelines/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grpc.AspNetCore.Server/2.66.0": {
+      "sha512": "SogFEs8bLvcRtEWMdueOJeMxiaLryvyivWtmBwz/vLtS5xlN4Zrfv+npMbn1PS4iT99AqBY+R+bRxdIFfvfeIA==",
+      "type": "package",
+      "path": "grpc.aspnetcore.server/2.66.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "grpc.aspnetcore.server.2.66.0.nupkg.sha512",
+        "grpc.aspnetcore.server.nuspec",
+        "lib/net6.0/Grpc.AspNetCore.Server.dll",
+        "lib/net6.0/Grpc.AspNetCore.Server.pdb",
+        "lib/net6.0/Grpc.AspNetCore.Server.xml",
+        "lib/net7.0/Grpc.AspNetCore.Server.dll",
+        "lib/net7.0/Grpc.AspNetCore.Server.pdb",
+        "lib/net7.0/Grpc.AspNetCore.Server.xml",
+        "lib/net8.0/Grpc.AspNetCore.Server.dll",
+        "lib/net8.0/Grpc.AspNetCore.Server.pdb",
+        "lib/net8.0/Grpc.AspNetCore.Server.xml",
+        "lib/net9.0/Grpc.AspNetCore.Server.dll",
+        "lib/net9.0/Grpc.AspNetCore.Server.pdb",
+        "lib/net9.0/Grpc.AspNetCore.Server.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Grpc.Core.Api/2.66.0": {
+      "sha512": "HsjsQVAHe4hqP4t4rpUnmq+MZvPdyrlPsWF4T5fbMvyP3o/lMV+KVJfDlaNH8+v0aGQTVT3EsDFufbhaWb52cw==",
+      "type": "package",
+      "path": "grpc.core.api/2.66.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "grpc.core.api.2.66.0.nupkg.sha512",
+        "grpc.core.api.nuspec",
+        "lib/net462/Grpc.Core.Api.dll",
+        "lib/net462/Grpc.Core.Api.pdb",
+        "lib/net462/Grpc.Core.Api.xml",
+        "lib/netstandard2.0/Grpc.Core.Api.dll",
+        "lib/netstandard2.0/Grpc.Core.Api.pdb",
+        "lib/netstandard2.0/Grpc.Core.Api.xml",
+        "lib/netstandard2.1/Grpc.Core.Api.dll",
+        "lib/netstandard2.1/Grpc.Core.Api.pdb",
+        "lib/netstandard2.1/Grpc.Core.Api.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Grpc.Net.Common/2.66.0": {
+      "sha512": "YJpQpIvpo0HKlsG6SHwaieyji08qfv0DdEDIewCAA0egQY08637sHOj1netLGUhzBEsCqlGC3e92TZ2uqhxnvw==",
+      "type": "package",
+      "path": "grpc.net.common/2.66.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "grpc.net.common.2.66.0.nupkg.sha512",
+        "grpc.net.common.nuspec",
+        "lib/net6.0/Grpc.Net.Common.dll",
+        "lib/net6.0/Grpc.Net.Common.pdb",
+        "lib/net6.0/Grpc.Net.Common.xml",
+        "lib/net7.0/Grpc.Net.Common.dll",
+        "lib/net7.0/Grpc.Net.Common.pdb",
+        "lib/net7.0/Grpc.Net.Common.xml",
+        "lib/net8.0/Grpc.Net.Common.dll",
+        "lib/net8.0/Grpc.Net.Common.pdb",
+        "lib/net8.0/Grpc.Net.Common.xml",
+        "lib/netstandard2.0/Grpc.Net.Common.dll",
+        "lib/netstandard2.0/Grpc.Net.Common.pdb",
+        "lib/netstandard2.0/Grpc.Net.Common.xml",
+        "lib/netstandard2.1/Grpc.Net.Common.dll",
+        "lib/netstandard2.1/Grpc.Net.Common.pdb",
+        "lib/netstandard2.1/Grpc.Net.Common.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+      "sha512": "UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "protobuf-net/3.2.30": {
+      "sha512": "C/UTlmxEJHAHpqm8xQK1UyJKaIynVCSNG4mVrbLgnZ7ccH28nN49O8iMJvKEodTgVbnimvy+3mIiAdW6mATwnw==",
+      "type": "package",
+      "path": "protobuf-net/3.2.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.dll",
+        "lib/net462/protobuf-net.xml",
+        "lib/net6.0/protobuf-net.dll",
+        "lib/net6.0/protobuf-net.xml",
+        "lib/netstandard2.0/protobuf-net.dll",
+        "lib/netstandard2.0/protobuf-net.xml",
+        "lib/netstandard2.1/protobuf-net.dll",
+        "lib/netstandard2.1/protobuf-net.xml",
+        "protobuf-net.3.2.30.nupkg.sha512",
+        "protobuf-net.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Core/3.2.30": {
+      "sha512": "v2ZxxYrz+X212ukSx+uqkLuPu414bvmSAnTyf+PBUKR9ENJxO4P/csorA/27456MCp1JNoMssDj/f91RDiwBfQ==",
+      "type": "package",
+      "path": "protobuf-net.core/3.2.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.Core.dll",
+        "lib/net462/protobuf-net.Core.xml",
+        "lib/net6.0/protobuf-net.Core.dll",
+        "lib/net6.0/protobuf-net.Core.xml",
+        "lib/netstandard2.0/protobuf-net.Core.dll",
+        "lib/netstandard2.0/protobuf-net.Core.xml",
+        "lib/netstandard2.1/protobuf-net.Core.dll",
+        "lib/netstandard2.1/protobuf-net.Core.xml",
+        "protobuf-net.core.3.2.30.nupkg.sha512",
+        "protobuf-net.core.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Grpc/1.2.2": {
+      "sha512": "ywpDWMKewrojQQyAKicELuTuaH+heEQfcuB+aJdENN9OfNOIuWLnwLdnHOzJ1162hD/1trzYDFMV5g8vmTxJTQ==",
+      "type": "package",
+      "path": "protobuf-net.grpc/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.Grpc.dll",
+        "lib/net462/protobuf-net.Grpc.xml",
+        "lib/net6.0/protobuf-net.Grpc.dll",
+        "lib/net6.0/protobuf-net.Grpc.xml",
+        "lib/net8.0/protobuf-net.Grpc.dll",
+        "lib/net8.0/protobuf-net.Grpc.xml",
+        "lib/netstandard2.0/protobuf-net.Grpc.dll",
+        "lib/netstandard2.0/protobuf-net.Grpc.xml",
+        "lib/netstandard2.1/protobuf-net.Grpc.dll",
+        "lib/netstandard2.1/protobuf-net.Grpc.xml",
+        "protobuf-net.grpc.1.2.2.nupkg.sha512",
+        "protobuf-net.grpc.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Grpc.AspNetCore/1.2.2": {
+      "sha512": "pgWnFOD6FwazC5OQaKWv93eMaoKfGGcdRRwaVg8m52+KAJobjDFbYpPwVCQ68Lw8am6hAcM8UvPRL9XiIA9wiQ==",
+      "type": "package",
+      "path": "protobuf-net.grpc.aspnetcore/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/protobuf-net.Grpc.AspNetCore.dll",
+        "lib/net6.0/protobuf-net.Grpc.AspNetCore.xml",
+        "lib/net8.0/protobuf-net.Grpc.AspNetCore.dll",
+        "lib/net8.0/protobuf-net.Grpc.AspNetCore.xml",
+        "protobuf-net.grpc.aspnetcore.1.2.2.nupkg.sha512",
+        "protobuf-net.grpc.aspnetcore.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Grpc.AspNetCore.Reflection/1.2.2": {
+      "sha512": "3tRHt3YOimHGoAzC+cGO5suPv5eSlvXNWDFFbMTmK+ecwpnZITG3XxE7m5qKF5TP0h3VKOXipah5cQuPLmk8DQ==",
+      "type": "package",
+      "path": "protobuf-net.grpc.aspnetcore.reflection/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/protobuf-net.Grpc.AspNetCore.Reflection.dll",
+        "lib/net6.0/protobuf-net.Grpc.AspNetCore.Reflection.xml",
+        "lib/net8.0/protobuf-net.Grpc.AspNetCore.Reflection.dll",
+        "lib/net8.0/protobuf-net.Grpc.AspNetCore.Reflection.xml",
+        "protobuf-net.grpc.aspnetcore.reflection.1.2.2.nupkg.sha512",
+        "protobuf-net.grpc.aspnetcore.reflection.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Grpc.Reflection/1.2.2": {
+      "sha512": "rI6npMBrGHCbeWL8OZdW71+7h+27A950Omz2HwBicWYFlSs9WtNjPVDgmC/LPRrxfP8wZQEfu2z6C+0cZBEqmw==",
+      "type": "package",
+      "path": "protobuf-net.grpc.reflection/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.Grpc.Reflection.dll",
+        "lib/net462/protobuf-net.Grpc.Reflection.xml",
+        "lib/net6.0/protobuf-net.Grpc.Reflection.dll",
+        "lib/net6.0/protobuf-net.Grpc.Reflection.xml",
+        "lib/net8.0/protobuf-net.Grpc.Reflection.dll",
+        "lib/net8.0/protobuf-net.Grpc.Reflection.xml",
+        "lib/netstandard2.0/protobuf-net.Grpc.Reflection.dll",
+        "lib/netstandard2.0/protobuf-net.Grpc.Reflection.xml",
+        "lib/netstandard2.1/protobuf-net.Grpc.Reflection.dll",
+        "lib/netstandard2.1/protobuf-net.Grpc.Reflection.xml",
+        "protobuf-net.grpc.reflection.1.2.2.nupkg.sha512",
+        "protobuf-net.grpc.reflection.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Reflection/3.2.12": {
+      "sha512": "bpNTENWPqP2mx1sJJ5C6qZ2xP+f/E3dQF9MYY+xZ+RHxe3sLg+sPyBSCcJDTCY0e4dVIwQ/02gS8m4tVClDoKQ==",
+      "type": "package",
+      "path": "protobuf-net.reflection/3.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.Reflection.dll",
+        "lib/net462/protobuf-net.Reflection.xml",
+        "lib/netstandard2.0/protobuf-net.Reflection.dll",
+        "lib/netstandard2.0/protobuf-net.Reflection.xml",
+        "protobuf-net.png",
+        "protobuf-net.reflection.3.2.12.nupkg.sha512",
+        "protobuf-net.reflection.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/7.0.0": {
+      "sha512": "dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "type": "package",
+      "path": "system.collections.immutable/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Collections.Immutable.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets",
+        "lib/net462/System.Collections.Immutable.dll",
+        "lib/net462/System.Collections.Immutable.xml",
+        "lib/net6.0/System.Collections.Immutable.dll",
+        "lib/net6.0/System.Collections.Immutable.xml",
+        "lib/net7.0/System.Collections.Immutable.dll",
+        "lib/net7.0/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "system.collections.immutable.7.0.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.IO.Pipelines/8.0.0": {
+      "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
+      "type": "package",
+      "path": "system.io.pipelines/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/net7.0/System.IO.Pipelines.dll",
+        "lib/net7.0/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.8.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.4",
+      "protobuf-net.Grpc >= 1.2.2",
+      "protobuf-net.Grpc.AspNetCore >= 1.2.2",
+      "protobuf-net.Grpc.AspNetCore.Reflection >= 1.2.2",
+      "protobuf-net.Grpc.Reflection >= 1.2.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Khach\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Social\\SocialMicroservice\\TMQ.GrpcServer\\TMQ.GrpcServer.csproj",
+      "projectName": "TMQ.GrpcServer",
+      "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.GrpcServer\\TMQ.GrpcServer.csproj",
+      "packagesPath": "C:\\Users\\Khach\\.nuget\\packages\\",
+      "outputPath": "E:\\Social\\SocialMicroservice\\TMQ.GrpcServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Khach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.4, )"
+          },
+          "protobuf-net.Grpc": {
+            "target": "Package",
+            "version": "[1.2.2, )"
+          },
+          "protobuf-net.Grpc.AspNetCore": {
+            "target": "Package",
+            "version": "[1.2.2, )"
+          },
+          "protobuf-net.Grpc.AspNetCore.Reflection": {
+            "target": "Package",
+            "version": "[1.2.2, )"
+          },
+          "protobuf-net.Grpc.Reflection": {
+            "target": "Package",
+            "version": "[1.2.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+E:\Social\SocialMicroservice\TMQ.EnumDefine\bin\Debug\net9.0\TMQ.EnumDefine.deps.json
+E:\Social\SocialMicroservice\TMQ.EnumDefine\bin\Debug\net9.0\TMQ.EnumDefine.dll
+E:\Social\SocialMicroservice\TMQ.EnumDefine\bin\Debug\net9.0\TMQ.EnumDefine.pdb
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\TMQ.EnumDefine.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\TMQ.EnumDefine.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\TMQ.EnumDefine.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\TMQ.EnumDefine.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\TMQ.EnumDefine.dll
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\refint\TMQ.EnumDefine.dll
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\TMQ.EnumDefine.pdb
+E:\Social\SocialMicroservice\TMQ.EnumDefine\obj\Debug\net9.0\ref\TMQ.EnumDefine.dll

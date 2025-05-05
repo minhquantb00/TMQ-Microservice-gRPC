@@ -1,0 +1,11 @@
+E:\Social\SocialMicroservice\TMQ.AccountCommands\bin\Debug\net9.0\TMQ.AccountCommands.deps.json
+E:\Social\SocialMicroservice\TMQ.AccountCommands\bin\Debug\net9.0\TMQ.AccountCommands.dll
+E:\Social\SocialMicroservice\TMQ.AccountCommands\bin\Debug\net9.0\TMQ.AccountCommands.pdb
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\TMQ.AccountCommands.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\TMQ.AccountCommands.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\TMQ.AccountCommands.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\TMQ.AccountCommands.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\TMQ.AccountCommands.dll
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\refint\TMQ.AccountCommands.dll
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\TMQ.AccountCommands.pdb
+E:\Social\SocialMicroservice\TMQ.AccountCommands\obj\Debug\net9.0\ref\TMQ.AccountCommands.dll

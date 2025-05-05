@@ -1,0 +1,6 @@
+@TMQ.AccountManager_HostAddress = http://localhost:5150
+
+GET {{TMQ.AccountManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

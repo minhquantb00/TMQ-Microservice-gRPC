@@ -1,0 +1,15 @@
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\bin\Debug\net9.0\TMQ.HttpClientBase.deps.json
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\bin\Debug\net9.0\TMQ.HttpClientBase.dll
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\bin\Debug\net9.0\TMQ.HttpClientBase.pdb
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\bin\Debug\net9.0\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\bin\Debug\net9.0\TMQ.Common.pdb
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.Http.C8F131E3.Up2Date
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.dll
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\refint\TMQ.HttpClientBase.dll
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\TMQ.HttpClientBase.pdb
+E:\Social\SocialMicroservice\TMQ.HttpClientBase\obj\Debug\net9.0\ref\TMQ.HttpClientBase.dll

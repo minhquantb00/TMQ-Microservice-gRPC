@@ -1,0 +1,12 @@
+E:\Social\SocialMicroservice\TMQ.GrpcClient\bin\Debug\net9.0\TMQ.GrpcClient.deps.json
+E:\Social\SocialMicroservice\TMQ.GrpcClient\bin\Debug\net9.0\TMQ.GrpcClient.dll
+E:\Social\SocialMicroservice\TMQ.GrpcClient\bin\Debug\net9.0\TMQ.GrpcClient.pdb
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.dll
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\refint\TMQ.GrpcClient.dll
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\TMQ.GrpcClient.pdb
+E:\Social\SocialMicroservice\TMQ.GrpcClient\obj\Debug\net9.0\ref\TMQ.GrpcClient.dll

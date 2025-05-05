@@ -1,0 +1,12 @@
+E:\Social\SocialMicroservice\TMQ.Common\bin\Debug\net9.0\TMQ.Common.deps.json
+E:\Social\SocialMicroservice\TMQ.Common\bin\Debug\net9.0\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.Common\bin\Debug\net9.0\TMQ.Common.pdb
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\refint\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\TMQ.Common.pdb
+E:\Social\SocialMicroservice\TMQ.Common\obj\Debug\net9.0\ref\TMQ.Common.dll

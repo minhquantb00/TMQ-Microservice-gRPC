@@ -1,0 +1,12 @@
+E:\Social\SocialMicroservice\TMQ.GrpcServer\bin\Debug\net9.0\TMQ.GrpcServer.deps.json
+E:\Social\SocialMicroservice\TMQ.GrpcServer\bin\Debug\net9.0\TMQ.GrpcServer.dll
+E:\Social\SocialMicroservice\TMQ.GrpcServer\bin\Debug\net9.0\TMQ.GrpcServer.pdb
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.dll
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\refint\TMQ.GrpcServer.dll
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\TMQ.GrpcServer.pdb
+E:\Social\SocialMicroservice\TMQ.GrpcServer\obj\Debug\net9.0\ref\TMQ.GrpcServer.dll

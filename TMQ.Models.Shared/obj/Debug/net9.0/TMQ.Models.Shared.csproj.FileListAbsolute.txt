@@ -1,0 +1,17 @@
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Models.Shared.deps.json
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Models.Shared.dll
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Models.Shared.pdb
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Config.dll
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Config.pdb
+E:\Social\SocialMicroservice\TMQ.Models.Shared\bin\Debug\net9.0\TMQ.Common.pdb
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Mode.73B18E90.Up2Date
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.dll
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\refint\TMQ.Models.Shared.dll
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\TMQ.Models.Shared.pdb
+E:\Social\SocialMicroservice\TMQ.Models.Shared\obj\Debug\net9.0\ref\TMQ.Models.Shared.dll

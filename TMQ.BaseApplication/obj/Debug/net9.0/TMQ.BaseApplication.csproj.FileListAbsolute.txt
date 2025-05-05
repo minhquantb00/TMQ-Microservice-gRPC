@@ -1,0 +1,7 @@
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.MvcApplicationPartsAssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.BaseApplication\obj\Debug\net9.0\TMQ.BaseApplication.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,11 @@
+E:\Social\SocialMicroservice\TMQ.Exceptions\bin\Debug\net9.0\TMQ.Exceptions.deps.json
+E:\Social\SocialMicroservice\TMQ.Exceptions\bin\Debug\net9.0\TMQ.Exceptions.dll
+E:\Social\SocialMicroservice\TMQ.Exceptions\bin\Debug\net9.0\TMQ.Exceptions.pdb
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\TMQ.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\TMQ.Exceptions.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\TMQ.Exceptions.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\TMQ.Exceptions.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\TMQ.Exceptions.dll
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\refint\TMQ.Exceptions.dll
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\TMQ.Exceptions.pdb
+E:\Social\SocialMicroservice\TMQ.Exceptions\obj\Debug\net9.0\ref\TMQ.Exceptions.dll

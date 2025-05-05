@@ -1,0 +1,17 @@
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.EsRepositories.deps.json
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.EsRepositories.dll
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.EsRepositories.pdb
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.HttpClientBase.dll
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.Common.pdb
+E:\Social\SocialMicroservice\TMQ.EsRepositories\bin\Debug\net9.0\TMQ.HttpClientBase.pdb
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRe.8504D7F8.Up2Date
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.dll
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\refint\TMQ.EsRepositories.dll
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\TMQ.EsRepositories.pdb
+E:\Social\SocialMicroservice\TMQ.EsRepositories\obj\Debug\net9.0\ref\TMQ.EsRepositories.dll

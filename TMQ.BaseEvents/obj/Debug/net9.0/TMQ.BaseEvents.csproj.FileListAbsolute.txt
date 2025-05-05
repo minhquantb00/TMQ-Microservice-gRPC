@@ -1,0 +1,17 @@
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.BaseEvents.deps.json
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.BaseEvents.dll
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.BaseEvents.pdb
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.Common.dll
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.EnumDefine.dll
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.Common.pdb
+E:\Social\SocialMicroservice\TMQ.BaseEvents\bin\Debug\net9.0\TMQ.EnumDefine.pdb
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.csproj.AssemblyReference.cache
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.GeneratedMSBuildEditorConfig.editorconfig
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.AssemblyInfoInputs.cache
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.AssemblyInfo.cs
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.csproj.CoreCompileInputs.cache
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.Base.DD3530F4.Up2Date
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.dll
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\refint\TMQ.BaseEvents.dll
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\TMQ.BaseEvents.pdb
+E:\Social\SocialMicroservice\TMQ.BaseEvents\obj\Debug\net9.0\ref\TMQ.BaseEvents.dll

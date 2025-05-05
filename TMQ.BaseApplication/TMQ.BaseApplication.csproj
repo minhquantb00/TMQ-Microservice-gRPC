@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elastic.Serilog.Sinks" Version="8.12.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TMQ.BaseRepositories\TMQ.BaseRepositories.csproj" />
+    <ProjectReference Include="..\TMQ.Cache\TMQ.Cache.csproj" />
+    <ProjectReference Include="..\TMQ.Common\TMQ.Common.csproj" />
+    <ProjectReference Include="..\TMQ.Config\TMQ.Config.csproj" />
+    <ProjectReference Include="..\TMQ.EventBus\TMQ.EventBus.csproj" />
+    <ProjectReference Include="..\TMQ.Exceptions\TMQ.Exceptions.csproj" />
+    <ProjectReference Include="..\TMQ.GrpcServer\TMQ.GrpcServer.csproj" />
+    <ProjectReference Include="..\TMQ.HttpClientBase\TMQ.HttpClientBase.csproj" />
+  </ItemGroup>
+
+</Project>

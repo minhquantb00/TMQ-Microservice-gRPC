@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TMQ.BaseCommands\TMQ.BaseCommands.csproj" />
+    <ProjectReference Include="..\TMQ.BaseEvents\TMQ.BaseEvents.csproj" />
+    <ProjectReference Include="..\TMQ.BaseReadModels\TMQ.BaseReadModels.csproj" />
+    <ProjectReference Include="..\TMQ.Common\TMQ.Common.csproj" />
+  </ItemGroup>
+
+</Project>
