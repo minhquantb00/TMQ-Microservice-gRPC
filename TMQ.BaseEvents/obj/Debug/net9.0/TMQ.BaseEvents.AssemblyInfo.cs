@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TMQ.BaseEvents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72e07ba2c8965fb44d473872dbf3685e87f11c34")]
 [assembly: System.Reflection.AssemblyProductAttribute("TMQ.BaseEvents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TMQ.BaseEvents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

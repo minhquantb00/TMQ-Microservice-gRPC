@@ -1,0 +1,6 @@
+@TMQ.CustomerApi_HostAddress = http://localhost:5083
+
+GET {{TMQ.CustomerApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

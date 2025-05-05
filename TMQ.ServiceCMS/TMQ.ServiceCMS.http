@@ -1,0 +1,6 @@
+@TMQ.ServiceCMS_HostAddress = http://localhost:5113
+
+GET {{TMQ.ServiceCMS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

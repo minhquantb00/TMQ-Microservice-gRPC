@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "TMQ.AccountDomains/1.0.0": {
         "dependencies": {
+          "TMQ.AccountCommands": "1.0.0",
+          "TMQ.AccountReadModels": "1.0.0",
           "TMQ.BaseDomains": "1.0.0"
         },
         "runtime": {
@@ -157,6 +159,30 @@
       },
       "System.Memory/4.5.5": {},
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "TMQ.AccountCommands/1.0.0": {
+        "dependencies": {
+          "TMQ.BaseCommands": "1.0.0",
+          "TMQ.BaseEvents": "1.0.0",
+          "protobuf-net.Core": "3.2.52"
+        },
+        "runtime": {
+          "TMQ.AccountCommands.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TMQ.AccountReadModels/1.0.0": {
+        "dependencies": {
+          "TMQ.BaseReadModels": "1.0.0"
+        },
+        "runtime": {
+          "TMQ.AccountReadModels.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "TMQ.BaseCommands/1.0.0": {
         "dependencies": {
           "TMQ.Common": "1.0.0",
@@ -366,6 +392,16 @@
       "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "path": "system.runtime.compilerservices.unsafe/5.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "TMQ.AccountCommands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TMQ.AccountReadModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "TMQ.BaseCommands/1.0.0": {
       "type": "project",

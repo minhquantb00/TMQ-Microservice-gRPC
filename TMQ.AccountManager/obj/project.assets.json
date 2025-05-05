@@ -218,6 +218,19 @@
           }
         }
       },
+      "FluentValidation/11.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Grpc.AspNetCore.Server/2.66.0": {
         "type": "package",
         "dependencies": {
@@ -2031,6 +2044,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "TMQ.AccountCommands": "1.0.0",
           "TMQ.AccountReadModels": "1.0.0",
           "TMQ.BaseDomains": "1.0.0"
         },
@@ -2375,6 +2389,51 @@
         "runtime": {
           "bin/placeholder/TMQ.HttpClientBase.dll": {}
         }
+      },
+      "TMQ.SystemCommands/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TMQ.BaseCommands": "1.0.0",
+          "TMQ.BaseEvents": "1.0.0",
+          "TMQ.Common": "1.0.0",
+          "protobuf-net.Core": "3.2.52"
+        },
+        "compile": {
+          "bin/placeholder/TMQ.SystemCommands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMQ.SystemCommands.dll": {}
+        }
+      },
+      "TMQ.SystemManager.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "System.ServiceModel.Primitives": "4.5.3",
+          "TMQ.SystemCommands": "1.0.0",
+          "TMQ.SystemReadModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TMQ.SystemManager.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMQ.SystemManager.Shared.dll": {}
+        }
+      },
+      "TMQ.SystemReadModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TMQ.BaseReadModels": "1.0.0",
+          "protobuf-net.Core": "3.2.52"
+        },
+        "compile": {
+          "bin/placeholder/TMQ.SystemReadModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMQ.SystemReadModels.dll": {}
+        }
       }
     }
   },
@@ -2648,6 +2707,31 @@
         "lib/netstandard2.1/Elastic.Transport.xml",
         "license.txt",
         "nuget-icon.png"
+      ]
+    },
+    "FluentValidation/11.11.0": {
+      "sha512": "cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "type": "package",
+      "path": "fluentvalidation/11.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.11.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Grpc.AspNetCore.Server/2.66.0": {
@@ -5489,10 +5573,26 @@
       "type": "project",
       "path": "../TMQ.HttpClientBase/TMQ.HttpClientBase.csproj",
       "msbuildProject": "../TMQ.HttpClientBase/TMQ.HttpClientBase.csproj"
+    },
+    "TMQ.SystemCommands/1.0.0": {
+      "type": "project",
+      "path": "../TMQ.SystemCommands/TMQ.SystemCommands.csproj",
+      "msbuildProject": "../TMQ.SystemCommands/TMQ.SystemCommands.csproj"
+    },
+    "TMQ.SystemManager.Shared/1.0.0": {
+      "type": "project",
+      "path": "../TMQ.SystemManager.Shared/TMQ.SystemManager.Shared.csproj",
+      "msbuildProject": "../TMQ.SystemManager.Shared/TMQ.SystemManager.Shared.csproj"
+    },
+    "TMQ.SystemReadModels/1.0.0": {
+      "type": "project",
+      "path": "../TMQ.SystemReadModels/TMQ.SystemReadModels.csproj",
+      "msbuildProject": "../TMQ.SystemReadModels/TMQ.SystemReadModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "FluentValidation >= 11.11.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.1",
       "Otp.NET >= 1.4.0",
       "QRCoder >= 1.6.0",
@@ -5502,7 +5602,8 @@
       "TMQ.AccountRepositorySQLImplement >= 1.0.0",
       "TMQ.BaseApplication >= 1.0.0",
       "TMQ.EsRepositories >= 1.0.0",
-      "TMQ.EventBus >= 1.0.0"
+      "TMQ.EventBus >= 1.0.0",
+      "TMQ.SystemManager.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5557,6 +5658,9 @@
             },
             "E:\\Social\\SocialMicroservice\\TMQ.EventBus\\TMQ.EventBus.csproj": {
               "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.EventBus\\TMQ.EventBus.csproj"
+            },
+            "E:\\Social\\SocialMicroservice\\TMQ.SystemManager.Shared\\TMQ.SystemManager.Shared.csproj": {
+              "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.SystemManager.Shared\\TMQ.SystemManager.Shared.csproj"
             }
           }
         }
@@ -5577,6 +5681,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.11.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.1, )"

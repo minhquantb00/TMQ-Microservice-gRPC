@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iEmx5cM/ywo=",
+  "dgSpecHash": "isUGb3wHobw=",
   "success": true,
   "projectFilePath": "E:\\Social\\SocialMicroservice\\TMQ.AccountManager\\TMQ.AccountManager.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\Khach\\.nuget\\packages\\elastic.ingest.transport\\0.7.5\\elastic.ingest.transport.0.7.5.nupkg.sha512",
     "C:\\Users\\Khach\\.nuget\\packages\\elastic.serilog.sinks\\8.12.3\\elastic.serilog.sinks.8.12.3.nupkg.sha512",
     "C:\\Users\\Khach\\.nuget\\packages\\elastic.transport\\0.5.6\\elastic.transport.0.5.6.nupkg.sha512",
+    "C:\\Users\\Khach\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Khach\\.nuget\\packages\\grpc.aspnetcore.server\\2.66.0\\grpc.aspnetcore.server.2.66.0.nupkg.sha512",
     "C:\\Users\\Khach\\.nuget\\packages\\grpc.core.api\\2.66.0\\grpc.core.api.2.66.0.nupkg.sha512",
     "C:\\Users\\Khach\\.nuget\\packages\\grpc.net.common\\2.66.0\\grpc.net.common.2.66.0.nupkg.sha512",

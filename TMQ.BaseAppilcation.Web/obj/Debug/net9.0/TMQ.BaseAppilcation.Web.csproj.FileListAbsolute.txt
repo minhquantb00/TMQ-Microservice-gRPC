@@ -4,3 +4,4 @@ E:\Social\SocialMicroservice\TMQ.BaseAppilcation.Web\obj\Debug\net9.0\TMQ.BaseAp
 E:\Social\SocialMicroservice\TMQ.BaseAppilcation.Web\obj\Debug\net9.0\TMQ.BaseAppilcation.Web.AssemblyInfo.cs
 E:\Social\SocialMicroservice\TMQ.BaseAppilcation.Web\obj\Debug\net9.0\TMQ.BaseAppilcation.Web.csproj.CoreCompileInputs.cache
 E:\Social\SocialMicroservice\TMQ.BaseAppilcation.Web\obj\Debug\net9.0\TMQ.BaseAppilcation.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\Social\SocialMicroservice\TMQ.BaseAppilcation.Web\obj\Debug\net9.0\TMQ.BaseAppilcation.Web.sourcelink.json

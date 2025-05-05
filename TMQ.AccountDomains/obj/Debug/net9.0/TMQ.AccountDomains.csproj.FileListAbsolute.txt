@@ -25,3 +25,8 @@ E:\Social\SocialMicroservice\TMQ.AccountDomains\obj\Debug\net9.0\TMQ.AccountDoma
 E:\Social\SocialMicroservice\TMQ.AccountDomains\obj\Debug\net9.0\refint\TMQ.AccountDomains.dll
 E:\Social\SocialMicroservice\TMQ.AccountDomains\obj\Debug\net9.0\TMQ.AccountDomains.pdb
 E:\Social\SocialMicroservice\TMQ.AccountDomains\obj\Debug\net9.0\ref\TMQ.AccountDomains.dll
+E:\Social\SocialMicroservice\TMQ.AccountDomains\bin\Debug\net9.0\TMQ.AccountCommands.dll
+E:\Social\SocialMicroservice\TMQ.AccountDomains\bin\Debug\net9.0\TMQ.AccountReadModels.dll
+E:\Social\SocialMicroservice\TMQ.AccountDomains\bin\Debug\net9.0\TMQ.AccountCommands.pdb
+E:\Social\SocialMicroservice\TMQ.AccountDomains\bin\Debug\net9.0\TMQ.AccountReadModels.pdb
+E:\Social\SocialMicroservice\TMQ.AccountDomains\obj\Debug\net9.0\TMQ.AccountDomains.sourcelink.json

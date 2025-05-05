@@ -110,6 +110,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj": {
+                "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj"
+              },
               "E:\\Social\\SocialMicroservice\\TMQ.AccountReadModels\\TMQ.AccountReadModels.csproj": {
                 "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountReadModels\\TMQ.AccountReadModels.csproj"
               },

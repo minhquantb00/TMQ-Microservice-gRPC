@@ -4,6 +4,84 @@
     "E:\\Social\\SocialMicroservice\\TMQ.AccountRepository\\TMQ.AccountRepository.csproj": {}
   },
   "projects": {
+    "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj",
+        "projectName": "TMQ.AccountCommands",
+        "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj",
+        "packagesPath": "C:\\Users\\Khach\\.nuget\\packages\\",
+        "outputPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Khach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "E:\\Social\\SocialMicroservice\\TMQ.BaseCommands\\TMQ.BaseCommands.csproj": {
+                "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.BaseCommands\\TMQ.BaseCommands.csproj"
+              },
+              "E:\\Social\\SocialMicroservice\\TMQ.BaseEvents\\TMQ.BaseEvents.csproj": {
+                "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.BaseEvents\\TMQ.BaseEvents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "protobuf-net.Core": {
+              "target": "Package",
+              "version": "[3.2.52, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Social\\SocialMicroservice\\TMQ.AccountDomains\\TMQ.AccountDomains.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,6 +110,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj": {
+                "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj"
+              },
               "E:\\Social\\SocialMicroservice\\TMQ.AccountReadModels\\TMQ.AccountReadModels.csproj": {
                 "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountReadModels\\TMQ.AccountReadModels.csproj"
               },

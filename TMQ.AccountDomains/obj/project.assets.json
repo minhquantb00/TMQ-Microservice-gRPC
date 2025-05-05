@@ -241,6 +241,21 @@
           }
         }
       },
+      "TMQ.AccountCommands/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TMQ.BaseCommands": "1.0.0",
+          "TMQ.BaseEvents": "1.0.0",
+          "protobuf-net.Core": "3.2.52"
+        },
+        "compile": {
+          "bin/placeholder/TMQ.AccountCommands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMQ.AccountCommands.dll": {}
+        }
+      },
       "TMQ.AccountReadModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -731,6 +746,11 @@
         "version.txt"
       ]
     },
+    "TMQ.AccountCommands/1.0.0": {
+      "type": "project",
+      "path": "../TMQ.AccountCommands/TMQ.AccountCommands.csproj",
+      "msbuildProject": "../TMQ.AccountCommands/TMQ.AccountCommands.csproj"
+    },
     "TMQ.AccountReadModels/1.0.0": {
       "type": "project",
       "path": "../TMQ.AccountReadModels/TMQ.AccountReadModels.csproj",
@@ -774,6 +794,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "TMQ.AccountCommands >= 1.0.0",
       "TMQ.AccountReadModels >= 1.0.0",
       "TMQ.BaseDomains >= 1.0.0"
     ]
@@ -810,6 +831,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj": {
+              "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountCommands\\TMQ.AccountCommands.csproj"
+            },
             "E:\\Social\\SocialMicroservice\\TMQ.AccountReadModels\\TMQ.AccountReadModels.csproj": {
               "projectPath": "E:\\Social\\SocialMicroservice\\TMQ.AccountReadModels\\TMQ.AccountReadModels.csproj"
             },

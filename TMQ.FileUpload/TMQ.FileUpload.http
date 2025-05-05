@@ -1,0 +1,6 @@
+@TMQ.FileUpload_HostAddress = http://localhost:5161
+
+GET {{TMQ.FileUpload_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
