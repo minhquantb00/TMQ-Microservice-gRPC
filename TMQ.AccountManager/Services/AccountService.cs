@@ -11,11 +11,14 @@ using TMQ.Config;
 using TMQ.EsRepositories;
 using TMQ.EnumDefine;
 using TMQ.AccountDomains.Entities;
+using TMQ.SystemManager.Shared;
+using TMQ.SystemCommands.Queries;
+using TMQ.AccountManager.Validations;
 
 namespace TMQ.AccountManager.Services
 {
     public class AccountService(
-    ILogger<AuthenticationService> logger,
+    ILogger<AccountService> logger,
     ContextService contextService,
     UserRepositoryResolver userRepositoryResolver,
     ICommonService commonService,
@@ -88,11 +91,10 @@ namespace TMQ.AccountManager.Services
                     IsDigit = true,
                     TypeName = typeof(RUser).FullName,
                 });
-                //var user = new User(command, id);
-                //user.AddOtpTypeAndAuthenticatorSecretKey(command, otpUtility.GenerateRandomKey);
+                var user = new User(command, id);
                 await userRepository.Add(user);
                 response.Data = user.Id;
-                //EventAdd(user.ToAddEvent());
+                EventAdd(user.ToAddEvent());
 
                 response.SetSuccess();
             });

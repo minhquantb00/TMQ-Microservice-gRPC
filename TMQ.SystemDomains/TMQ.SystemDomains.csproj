@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TMQ.AccountCommands\TMQ.AccountCommands.csproj" />
-    <ProjectReference Include="..\TMQ.AccountReadModels\TMQ.AccountReadModels.csproj" />
     <ProjectReference Include="..\TMQ.BaseDomains\TMQ.BaseDomains.csproj" />
+    <ProjectReference Include="..\TMQ.SystemCommands\TMQ.SystemCommands.csproj" />
+    <ProjectReference Include="..\TMQ.SystemReadModels\TMQ.SystemReadModels.csproj" />
   </ItemGroup>
 
 </Project>

@@ -12,6 +12,10 @@ namespace TMQ.AccountCommands
     [ProtoContract]
     [ProtoInclude(200, typeof(AccountAddCommand))]
     [ProtoInclude(300, typeof(AccountChangeCommand))]
+    [ProtoInclude(400, typeof(AccountChangePasswordCommand))]
+    [ProtoInclude(500, typeof(AccountChangePhoneNumberCommand))]
+    [ProtoInclude(600, typeof(SetPasswordCommand))]
+    [ProtoInclude(700, typeof(AccountSyncCommand))]
     public record AccountBaseCommand : BaseCommand
     {
         [ProtoMember(101)] public override string? ObjectId { get; set; }

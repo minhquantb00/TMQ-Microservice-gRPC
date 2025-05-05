@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
+using TMQ.AccountCommands.Commands;
+using TMQ.AccountCommands;
+using TMQ.AccountCommands.Events;
 using TMQ.AccountReadModels;
+using TMQ.BaseCommands;
 using TMQ.BaseDomains;
+using TMQ.Common;
 using TMQ.EnumDefine;
 
 namespace TMQ.AccountDomains.Entities
@@ -56,6 +62,30 @@ namespace TMQ.AccountDomains.Entities
             Addresses = user.Addresses?.Select(p => new Address(p)).ToList();
         }
 
+        public void SetPassword(SetPasswordCommand command)
+        {
+            Password = EncryptionExtensions.Encryption(Id, command.Password, out string salt);
+            PasswordSalt = salt;
+            Changed(command);
+        }
+
+        public void Change(AccountChangeCommand command)
+        {
+            Code = command.UserName;
+            Email = command.Email.AsEmpty();
+            FullName = command.FullName;
+            PhoneNumber = command.PhoneNumber.AsEmpty();
+            IsPhoneNumberConfirmed = !string.IsNullOrEmpty(PhoneNumber) && command.IsPhoneNumberConfirmed;
+            SecurityStamp = null;
+            IsEmailConfirmed = !string.IsNullOrEmpty(Email) && command.IsEmailConfirmed;
+            AccessFailedCount = 0;
+            DateOfBirth = command.DateOfBirth;
+            Gender = command.Gender;
+            Status = command.Status;
+            AccountType = command.AccountType;
+            Changed(command);
+        }
+
         public new string Id { get; private set; }
         public string UserName { get; private set; }
         public string Password { get; private set; }
@@ -94,5 +124,53 @@ namespace TMQ.AccountDomains.Entities
         public virtual UserInfo? UserInfo { get; private set; }
         public string AuthenticatorSecretKeys => Common.Serialize.JsonSerializeObject(AuthenticationSecretKeys);
         public string? RUserInfoJson => Common.Serialize.JsonSerializeObject(UserInfo);
+
+        public User(AccountAddCommand command, string id) : base(command)
+        {
+            Id = id;
+            Code = command.UserName;
+            Email = command.Email.AsEmpty();
+            FullName = command.FullName;
+            if (string.IsNullOrEmpty(command.Password))
+            {
+                command.Password = CommonUtility.GenerateGuid();
+            }
+
+            Password = EncryptionExtensions.Encryption(Id, command.Password, out string salt);
+            PasswordSalt = salt;
+            PhoneNumber = command.PhoneNumber.AsEmpty();
+            IsPhoneNumberConfirmed = !string.IsNullOrEmpty(PhoneNumber) && command.IsPhoneNumberConfirmed;
+            SecurityStamp = null;
+            IsEmailConfirmed = !string.IsNullOrEmpty(Email) && command.IsEmailConfirmed;
+            AccessFailedCount = 0;
+            DateOfBirth = command.DateOfBirth;
+            Gender = command.Gender;
+            Status = command.Status;
+            AccountType = command.AccountType;
+        }
+
+        public bool ComparePassword(string loginPassword)
+        {
+            string passwordHash = EncryptionExtensions.Encryption(Id, loginPassword, PasswordSalt.AsEmpty());
+            return Password?.Equals(passwordHash) == true;
+        }
+
+        public UserAddEvent ToAddEvent()
+        {
+            return new UserAddEvent()
+            {
+                ObjectId = Id,
+                AccountTypeEnum = AccountType
+            };
+        }
+
+        public UserChangeEvent ToChangeEvent()
+        {
+            return new UserChangeEvent()
+            {
+                ObjectId = Id,
+                AccountTypeEnum = AccountType
+            };
+        }
     }
 }
